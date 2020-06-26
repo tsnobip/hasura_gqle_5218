@@ -1,0 +1,1 @@
+CREATE TABLE "public"."document"("id" serial NOT NULL, "name" text NOT NULL, "project_id" integer NOT NULL, PRIMARY KEY ("id") , FOREIGN KEY ("project_id") REFERENCES "public"."project"("id") ON UPDATE restrict ON DELETE restrict);

@@ -1,0 +1,10 @@
+.DS_Store
+**/node_modules/**
+**/finalOutput/*.js
+**/.install
+**/lib/
+**/*.log
+**/_build
+**/*.install
+**/build/**
+**/.graphql_ppx_cache
